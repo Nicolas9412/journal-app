@@ -29,8 +29,8 @@ export const startNewNote = () => {
 
     newNote.id = newDoc.id;
 
-    dispatch(addNewEmptyNote(newDoc));
-    dispatch(setActiveNote(newDoc));
+    dispatch(addNewEmptyNote(newNote));
+    dispatch(setActiveNote(newNote));
   };
 };
 
